@@ -1,5 +1,5 @@
 # ConditionalLearnToPayAttention
-a tensorflow version implementation of ConditionalLearnToPayAttention:designing a conditional attention mechanism to solve sequential visual task such as multiple objects recognition and image caption. 
+A tensorflow version implementation of ConditionalLearnToPayAttention:designing a conditional attention mechanism to solve sequential visual task such as multiple objects recognition and image caption. 
 
 
 ## SVHN dataset
@@ -22,7 +22,7 @@ skimage 0.15.0
 
 ## In MultipleObjectsRecognition</br>
 ### Training details
-we generate images with bounding boxes, and resize the images to 64×64. 
+We generate images with bounding boxes, and resize the images to 64×64. 
 We then use the similar data augmentation which crops a 54×54 pixel image from a random location within the 64×64 pixel image in [Goodfellow et al. (2013)](https://arxiv.org/pdf/1312.6082).</br>
 In order to verify the universality of the model, we directly resize the orginal images in SVHN dataset without bounding boxes, and the results outperform than the method in [Goodfellow et al. (2013)](https://arxiv.org/pdf/1312.6082)</br>
 Also we use multiple scale attention features to improve performance, and for different attention scales, the method of training model is the same.</br>
