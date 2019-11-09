@@ -6,7 +6,7 @@ a tensorflow version implementation of ConditionalLearnToPayAttention:designing 
 SVHN is obtained from house numbers in Google Street View images. The dataset can be download [here(format1)](http://ufldl.stanford.edu/housenumbers/).</br>
 
 ## Training data samples
-![](https://github.com/caoquanjie/MultipleObjectsRecognition/raw/master/samples/sample.jpg)
+![](https://github.com/caoquanjie/ConditionalLearnToPayAttention/MultipleObjectsRecognition/samples/sample.jpg)
 
 ## COCO dataset 
 Mscoco is a dataset built by Microsoft, which includes detection, segmentation, keypoints and other tasks. The dataset can be download [here](http://cocodataset.org/#people)
@@ -30,12 +30,12 @@ Run `python convert_to_tfrecords.py`, you can get three tfrecords files(train,va
 Run `python main.py`
 
 
-### In weakly-svhn-recognition</br>
+## In weaklySvhnRecognition</br>
 We have only reprocessed the data, and the structure and training mode of the model have not changed, so we only need to run 'python convert_to_tfrecords.py' to generate new weakly labeled data.</br>
 Run `python convert_to_tfrecords.py`, you can get three data tfrecords files(train,val,test) without bounding box.</br>
 
 
-### Image Caption
+## Image Caption
 
 ## Result
 The crop svhn recognition accuracy of this soft attention model is reached 97.15% than baseline CNN model 96.04% [here](https://github.com/caoquanjie/SVHN-multi-digits-recogniton).
