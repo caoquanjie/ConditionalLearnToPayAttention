@@ -6,7 +6,7 @@ A tensorflow version implementation of ConditionalLearnToPayAttention:designing 
 SVHN is obtained from house numbers in Google Street View images. The dataset can be download [here(format1)](http://ufldl.stanford.edu/housenumbers/).</br>
 
 ## Training data samples
-![](https://github.com/caoquanjie/ConditionalLearnToPayAttention/MultipleObjectsRecognition/raw/master/samples/sample.jpg)
+![](https://github.com/caoquanjie/ConditionalLearnToPayAttention/raw/master/samples/sample.jpg)
 
 ## COCO dataset 
 Mscoco is a dataset built by Microsoft, which includes detection, segmentation, keypoints and other tasks. The dataset can be download [here](http://cocodataset.org/#people)
