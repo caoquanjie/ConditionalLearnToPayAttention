@@ -47,20 +47,20 @@ Run `python main.py --phase=train --load=False --load_cnn=True --cnn_model_file=
 #### Testing
 Run `python main.py --phase=eval --load=True --model_file='./models/xxxx.npy' --load_cnn=False --train_cnn=False --beam_size=3`.
 ## Result
-The crop svhn recognition accuracy of this soft attention model is reached 97.15% than baseline CNN model 96.04% [here](https://github.com/caoquanjie/SVHN-multi-digits-recogniton).
-The weakly svhn recognition accuracy of the soft attention model is reached 80.45% than baseline CNN model 70.58%
+The crop svhn recognition accuracy of this soft attention model is reached `97.15%` than baseline CNN model `96.04%` [here](https://github.com/caoquanjie/SVHN-multi-digits-recogniton).</br>
+The weakly svhn recognition accuracy of the soft attention model is reached `80.45%` than baseline CNN model `70.58%`.</br>
 All qualitative and quantitative results are all exported to the svhn.log, you can print some other results to the logs if you are interested.
 You also can view results in tensorboard.</br>
 
 Run `tensorboard --logdir=logs`.</br>
 
 The image caption model was trained on the COCO train2014 data. It achieves the following BLEU scores on the COCO val2014 data (with beam size=3):</br>
-BLEU-1 = 70.9</br>
-BLEU-2 = 54.1</br>
-BLEU-3 = 40.5</br>
-BLEU-4 = 30.3</br>
-METEOR = 23.9</br>
-CIDEr = 89.5</br>
+BLEU-1 = `70.9`</br>
+BLEU-2 = `54.1`</br>
+BLEU-3 = `40.5`</br>
+BLEU-4 = `30.3`</br>
+METEOR = `23.9`</br>
+CIDEr = `89.5`</br>
 You also can view results in tensorboard.</br>
 
 Run `tensorboard --logdir=summary`.</br>
