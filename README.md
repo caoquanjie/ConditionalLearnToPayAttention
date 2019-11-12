@@ -1,5 +1,6 @@
 # ConditionalLearnToPayAttention
-A tensorflow version implementation of ConditionalLearnToPayAttention:designing a conditional attention mechanism to solve sequential visual task such as multiple objects recognition and image caption. 
+A tensorflow version implementation of [ConditionalLearnToPayAttention](https://arxiv.org/abs/1911.04365).</br>
+Designing a conditional attention mechanism to solve sequential visual task such as multiple objects recognition and image caption. 
 
 
 ## SVHN dataset
@@ -65,4 +66,4 @@ You also can view results in tensorboard.</br>
 
 Run `tensorboard --logdir=summary`.</br>
 ## Visualization attention map 
-Attention maps from conditional attention model trained on SVHN dataset with/without bounding box, or valisualization of image caption can be seen in our paper.
+Attention maps from conditional attention model trained on SVHN dataset with/without bounding box, or valisualization of image caption can be seen in [our paper](https://arxiv.org/abs/1911.04365).
